@@ -1,32 +1,22 @@
-# Overwatch hero selector example
+# Door selector example
 
-오버워치 영웅 선택 화면 예제!
+다양한 색상과 모양의 문(Door) 선택 화면 예제!
 
-[DEMO](https://practical-bartik-a2000a.netlify.app/)
-
-## SCSS 리팩토링 버전
-
-https://github.com/ParkYoungWoong/overwatch-hero-selector-vanilla/tree/refactoring-scss
+[DEMO](https://dreamy-mcnulty-986c58.netlify.app/)
 
 ## Image url
 
-#### Characters
+#### Doors
 
 이미지 이름에 숫자를 확인하세요!
-`hero1.png`~`hero32.png`
+`img1.png`~`img32.png`
 
 ```url
-https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-vanilla/master/images/hero1.png
-```
-
-#### Overwatch logo
-
-```url
-https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-vanilla/master/images/logo_overwatch.png
+https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img1.jpg
 ```
 
 #### Background
 
 ```url
-https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-vanilla/master/images/bg.jpg
+https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/bg.jpg
 ```
