@@ -1,15 +1,13 @@
 body {
-  height: 100vh;
-  background-image: url("../images/bg.jpg");
+  background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .container {
   padding: 50px 0;
 }
 .doors {
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
   justify-content: center;
   max-width: 660px;
@@ -20,68 +18,65 @@ body {
   width: 80px;
   height: 84px;
   margin: 4px;
+  background-color: #555;
   border: 3px solid #fff;
+  transform: skewX(-14deg);
   border-radius: 10px;
   box-sizing: border-box;
+  transition: transform .1s, background-color .6s;
   overflow: hidden;
-  background-color: #555;
-  transform: skewX(-14deg);
-  transition:
-    transform .1s,
-    background-color .6s;
 }
 .door:hover {
-  background-color: #ff9c00;
+  background-color: orange;
   transform: skewX(-14deg) scale(1.3);
   z-index: 1;
 }
 .door .image {
-  width: 140%;
+  width: 130%;
   height: 100%;
-  transform: translateX(-15px) skewX(14deg);
+  background-size: cover;
+  transform: translateX(-11px) skewX(14deg);
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: 90px;
 }
-.door:nth-child(1) .image { background-image: url("../images/img1.jpg"); }
-.door:nth-child(2) .image { background-image: url("../images/img2.jpg"); }
-.door:nth-child(3) .image { background-image: url("../images/img3.jpg"); }
-.door:nth-child(4) .image { background-image: url("../images/img4.jpg"); }
-.door:nth-child(5) .image { background-image: url("../images/img5.jpg"); }
-.door:nth-child(6) .image { background-image: url("../images/img6.jpg"); }
-.door:nth-child(7) .image { background-image: url("../images/img7.jpg"); }
-.door:nth-child(8) .image { background-image: url("../images/img8.jpg"); }
-.door:nth-child(9) .image { background-image: url("../images/img9.jpg"); }
-.door:nth-child(10) .image { background-image: url("../images/img10.jpg"); }
+.door:nth-child(1) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img1.jpg"); }
+.door:nth-child(2) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img2.jpg"); }
+.door:nth-child(3) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img3.jpg"); }
+.door:nth-child(4) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img4.jpg"); }
+.door:nth-child(5) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img5.jpg"); }
+.door:nth-child(6) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img6.jpg"); }
+.door:nth-child(7) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img7.jpg"); }
+.door:nth-child(8) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img8.jpg"); }
+.door:nth-child(9) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img9.jpg"); }
+.door:nth-child(10) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img10.jpg"); }
 
-.door:nth-child(11) .image { background-image: url("../images/img11.jpg"); }
-.door:nth-child(12) .image { background-image: url("../images/img12.jpg"); }
-.door:nth-child(13) .image { background-image: url("../images/img13.jpg"); }
-.door:nth-child(14) .image { background-image: url("../images/img14.jpg"); }
-.door:nth-child(15) .image { background-image: url("../images/img15.jpg"); }
-.door:nth-child(16) .image { background-image: url("../images/img16.jpg"); }
-.door:nth-child(17) .image { background-image: url("../images/img17.jpg"); }
-.door:nth-child(18) .image { background-image: url("../images/img18.jpg"); }
-.door:nth-child(19) .image { background-image: url("../images/img19.jpg"); }
-.door:nth-child(20) .image { background-image: url("../images/img20.jpg"); }
+.door:nth-child(11) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img11.jpg"); }
+.door:nth-child(12) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img12.jpg"); }
+.door:nth-child(13) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img13.jpg"); }
+.door:nth-child(14) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img14.jpg"); }
+.door:nth-child(15) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img15.jpg"); }
+.door:nth-child(16) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img16.jpg"); }
+.door:nth-child(17) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img17.jpg"); }
+.door:nth-child(18) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img18.jpg"); }
+.door:nth-child(19) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img19.jpg"); }
+.door:nth-child(20) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img20.jpg"); }
 
-.door:nth-child(21) .image { background-image: url("../images/img21.jpg"); }
-.door:nth-child(22) .image { background-image: url("../images/img22.jpg"); }
-.door:nth-child(23) .image { background-image: url("../images/img23.jpg"); }
-.door:nth-child(24) .image { background-image: url("../images/img24.jpg"); }
-.door:nth-child(25) .image { background-image: url("../images/img25.jpg"); }
-.door:nth-child(26) .image { background-image: url("../images/img26.jpg"); }
-.door:nth-child(27) .image { background-image: url("../images/img27.jpg"); }
-.door:nth-child(28) .image { background-image: url("../images/img28.jpg"); }
-.door:nth-child(29) .image { background-image: url("../images/img29.jpg"); }
-.door:nth-child(30) .image { background-image: url("../images/img30.jpg"); }
+.door:nth-child(21) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img21.jpg"); }
+.door:nth-child(22) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img22.jpg"); }
+.door:nth-child(23) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img23.jpg"); }
+.door:nth-child(24) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img24.jpg"); }
+.door:nth-child(25) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img25.jpg"); }
+.door:nth-child(26) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img26.jpg"); }
+.door:nth-child(27) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img27.jpg"); }
+.door:nth-child(28) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img28.jpg"); }
+.door:nth-child(29) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img29.jpg"); }
+.door:nth-child(30) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img30.jpg"); }
 
-.door:nth-child(31) .image { background-image: url("../images/img31.jpg"); }
-.door:nth-child(32) .image { background-image: url("../images/img32.jpg"); }
+.door:nth-child(31) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img31.jpg"); }
+.door:nth-child(32) .image { background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/img32.jpg"); }
 
 h1.title {
-  color: #333;
   font-size: 30px;
   font-weight: bold;
+  color: #333;
   text-align: center;
 }
